@@ -62,7 +62,8 @@ jobs:
         with:
           push: true
           tags: ghcr.io/${{ env.REPO }}:${{ github.sha }}
-          file: ./docker/Dockerfile
+          file: ./TestProj/Dockerfile
+
 
 
   deploy:
